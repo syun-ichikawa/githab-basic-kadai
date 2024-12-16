@@ -3,13 +3,11 @@
  background-color: #dcc9f4;
  margin: 20px auto;
  text-align: center;
- display:flex;
- flex-direction:row;
-justify-content:space-around ;
 }
 .top-child{
   background-color: #ffd9df;
   width: 20%;
+  display: inline-block;
 }
 #middle{
   position: relative;
