@@ -1,17 +1,29 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-<meta charset="UTF-8">
-<title>20度傾ける</title>
-<style>
-.rotate-20 {
-  transform: rotate(20deg);
-}
-</style>
-</head>
-<body>
+<html>
 
-<div class="rotate-20">このテキストは20度傾いて表示されます。</div>
+<head>
+    <style>
+        /* 共通のスタイルを設定 */
+        div {
+            width: 150px;
+            height: 150px;
+            background-color: skyblue;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+        }
+
+        /* 回転用のスタイルを設定 */
+        .rotated {
+            transform: rotateZ(20deg);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 回転して配置される四角形 -->
+    <div class="rotated">回転します</div>
 
 </body>
+
 </html>
